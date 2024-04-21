@@ -5,11 +5,12 @@
 
 2. On the Auth0 console: Allow the "Password" Auth0 grant type to the application:
 Applications -> <Your application name> -> Advanced -> Grant Types -> Password -> Save
-<img width="1395" alt="Screenshot 2024-04-21 at 8 48 47 PM" src="https://github.com/ryoskeii/heya-book/assets/57847059/3597c8f5-aa19-4c1f-a3d6-62c96d8810e7">
+<img width="965" alt="Screenshot 2024-04-21 at 8 14 12 PM" src="https://github.com/ryoskeii/heya-book/assets/57847059/2bf8141c-fa10-439f-a1e5-664bf44c202c">
+
 
 4. On the Auth0 console: Set `Username-Password-Authentication` on API Authorization Settings -> Default Directory
 You can do this here: https://manage.auth0.com/dashboard/us/dev-orlrs87qrliauoeq/tenant/general
-<img width="1407" alt="Screenshot 2024-04-21 at 8 14 42 PM" src="https://github.com/ryoskeii/heya-book/assets/57847059/e8ceb338-fbd3-4479-85b8-5ab7936d8aea">
+<img width="1407" alt="Screenshot 2024-04-21 at 8 14 42 PM" src="https://github.com/ryoskeii/heya-book/assets/57847059/bf3b3667-bbff-4594-b171-b0aca13227b7">
 
 5. Please set the following ENV variables in the generated `./.env` file
 - The URL of our Auth0 Tenant Domain.
@@ -23,8 +24,7 @@ You can do this here: https://manage.auth0.com/dashboard/us/dev-orlrs87qrliauoeq
 
 - Auth0 Management API key.
 `AUTH0_MANAGEMENT_API_KEY=''`
-<img width="1428" alt="Screenshot 2024-04-21 at 8 54 45 PM" src="https://github.com/ryoskeii/heya-book/assets/57847059/622fb5da-f789-45a3-a0d6-e829bf5bb188">
-
+<img width="1428" alt="Screenshot 2024-04-21 at 8 54 45 PM" src="https://github.com/ryoskeii/heya-book/assets/57847059/35eca3bf-7106-4b75-9097-90ce8b998fa1">
 
 7. Use sail to create the docker runtime.
 `./vendor/bin/sail up`
